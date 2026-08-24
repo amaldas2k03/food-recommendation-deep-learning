@@ -1,0 +1,25 @@
+# Model weights (large file — download / train separately)
+*.pth
+best_resnet50_food_subset.pth
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Gradio
+.gradio/
+flagged/
+
+# Editor / OS
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
